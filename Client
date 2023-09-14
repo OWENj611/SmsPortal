@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en" class="theme-light">
+	<head>
+		    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/twigaIco.png">
+    <!-- Custom CSS -->
+    <!-- main page css -->
+    <link href="/dist/css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="/css/theme.css" type="text/css"/>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="/js/e60f7cf5ce.js"></script>
+		<title>Login | Twiga Chemical Shotcode Platform</title>
+	</head>
+
+	<body class="layout-row">
+		<div id="main" class="layout-column flex">
+						<div id="content" class="flex">
+								<div>
+					<div class="page-hero page-container" id="page-hero">
+						<div class="py-md-5">
+							
+
+
+						</div>
+
+						<div class="padding d-flex">
+							<div class="flex col-md-5 mx-auto">
+								<div class="col">
+									<div class="p-2 d-flex flex-column h-100">
+										<a href="/" class="navbar-brand align-self-center">
+											<img src="/assets/images/twiga-light.png" class="twiga-logo" alt="Twiga Chemical">
+										</a>
+									</div>
+
+									  
+  <div class="card">
+    <div id="content-body">
+      <div class="p-3 p-md-5">
+        <h4 class="text-center">Please sign in</h4>
+        <form role="form" action="/auth/login" method="post">
+          <div class="form-group">
+            <label for="email">Username</label>
+            <input id="email" name="username" type="text" class="form-control "
+                   placeholder="Your username"
+                   value=""
+            >
+                      </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" class="form-control "
+                   placeholder="Your Password">
+                      </div>
+          <div class="form-group">
+            <div class="row">
+              <div class="col">
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" name="remember" class="custom-control-input" id="remember">
+                  <label class="custom-control-label" for="remember">Remember me</label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="text-right">
+                  <a href="/auth/password/reset" class="text-muted">Forgot password?</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="shadow-lg btn btn-primary mb-2 btn-block">Login</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+									
+									<div class="text-center text-muted">&copy; 2023 Copyright by Twiga Chemical
+										Industries Ltd.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="page-content page-container" id="page-content">
+						<div></div>
+					</div>
+				</div>
+							</div>
+					</div>
+
+				<script src="/js/jquery.min.js"></script>
+				<script src="/js/bootstrap.min.js"></script>
+				<script src="/js/feather.min.js"></script>
+				<script src="/js/theme.js"></script>
+	</body>
+</html>
